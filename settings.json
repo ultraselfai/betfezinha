@@ -1,0 +1,184 @@
+{
+  "general": {
+    "siteName": "PrimeBet",
+    "timezone": "America/Sao_Paulo",
+    "currency": "BRL",
+    "language": "pt-BR",
+    "maintenanceMode": false,
+    "allowRegistration": true,
+    "requireEmailVerification": false,
+    "requireKYC": false,
+    "minAge": 18,
+    "gameColumns": 2
+  },
+  "branding": {
+    "logoUrl": "https://images.ultraself.space/branding/logo/1765029929582-horizo-primebet.png",
+    "mobileBannerUrl": "/banners/banner-default.jpg"
+  },
+  "experience": {
+    "identity": {
+      "siteName": "PrimeBet",
+      "tagline": "Aposte e Invista",
+      "footerText": "© 2024 PrimeBet. Todos os direitos reservados.",
+      "footerDescription": "O grupo PRIMEBET é uma das mais renomadas empresas internacionais de operação de iGaming, oferecendo os principais jogos slots e uma modalidade exclusiva onde VOCÊ nunca perde e ao invés disso transforma seus depósitos em retorno financeiro. Estamos autorizados e regulamentados pelo governo de Curaçao, operando com a licença número Antillephone emitida para a 8048/JAZ. Passamos por todas as verificações.",
+      "supportEmail": "suporte@primebet.com",
+      "whatsapp": "5511999999999",
+      "telegramButtonLink": "",
+      "socialLinks": {
+        "instagram": "https://instagram.com/primebet",
+        "telegram": "https://t.me/primebet",
+        "youtube": ""
+      }
+    },
+    "seo": {
+      "title": "PrimeBet - Apostas e Investimentos",
+      "description": "A melhor plataforma de apostas e investimentos do Brasil",
+      "keywords": "apostas, investimentos, jogos, cassino, slots"
+    },
+    "theme": {
+      "primaryColor": "#00faff",
+      "secondaryColor": "#0a1628",
+      "accentColor": "#00ff88",
+      "highlightIconColor": "#f97316",
+      "favoriteIconColor": "#facc15",
+      "loaderBackgroundColor": "#050f1f",
+      "loaderSpinnerColor": "#00faff",
+      "navLabelColor": "#9ca3af",
+      "navActiveLabelColor": "#00E0FF",
+      "preset": "cyan"
+    },
+    "media": {
+      "logo": {
+        "url": "https://images.ultraself.space/branding/logo/1765029929582-horizo-primebet.png",
+        "alt": "Logotipo PrimeBet"
+      },
+      "favicon": {
+        "url": "https://images.ultraself.space/branding/favicon/1764980448989-simbol-primebet.png"
+      },
+      "loaderGifUrl": "",
+      "telegramButtonImageUrl": "",
+      "banners": [
+        {
+          "id": "hero",
+          "title": "Banner Principal",
+          "subtitle": "Aposte no futuro",
+          "ctaLabel": "Depositar agora",
+          "ctaLink": "/depositar",
+          "imageUrl": "/banners/banner-default.jpg",
+          "active": true
+        }
+      ],
+      "icons": {
+        "trophyIconUrl": "",
+        "highlightIconUrl": "",
+        "favoriteIconUrl": "",
+        "balanceCoinIconUrl": "",
+        "categoryAllIconUrl": "",
+        "categoryHotIconUrl": "",
+        "categorySlotsIconUrl": "",
+        "categoryCrashIconUrl": "",
+        "categoryLiveIconUrl": "",
+        "categoryFavoritesIconUrl": ""
+      }
+    },
+    "features": {
+      "showTelegramButton": true,
+      "showSupport": true,
+      "showPromoBar": true,
+      "enableInvestments": true,
+      "maintenanceMode": false
+    },
+    "navigation": {
+      "bottomNav": [
+        {
+          "id": "home",
+          "label": "Games",
+          "icon": "gamepad",
+          "href": "/",
+          "enabled": true,
+          "isMandatory": true
+        },
+        {
+          "id": "associate",
+          "label": "Associado",
+          "icon": "users",
+          "href": "/associado",
+          "enabled": false,
+          "isMandatory": false
+        },
+        {
+          "id": "wallet",
+          "label": "Carteira",
+          "icon": "wallet",
+          "href": "/carteira",
+          "enabled": true,
+          "isMandatory": true,
+          "requiresAuth": true
+        },
+        {
+          "id": "promotions",
+          "label": "Promoções",
+          "icon": "sparkles",
+          "href": "/promocoes",
+          "enabled": false,
+          "isMandatory": false
+        },
+        {
+          "id": "profile",
+          "label": "Perfil",
+          "icon": "user",
+          "href": "/perfil",
+          "enabled": true,
+          "isMandatory": true,
+          "requiresAuth": true
+        }
+      ]
+    }
+  },
+  "fees": {
+    "depositFee": 0,
+    "withdrawalFee": 2.5,
+    "minWithdrawal": 20,
+    "maxWithdrawal": 50000,
+    "minDeposit": 10,
+    "maxDeposit": 100000,
+    "pixFee": 0,
+    "transferFee": 0
+  },
+  "investments": {
+    "enabled": false,
+    "yieldRate": 1,
+    "yieldFrequency": "monthly",
+    "minInvestment": 100,
+    "maxInvestment": 1000000,
+    "lockPeriod": 30,
+    "autoReinvest": false,
+    "compoundYield": true
+  },
+  "security": {
+    "twoFactorEnabled": false,
+    "sessionTimeout": 60,
+    "maxLoginAttempts": 5,
+    "lockoutDuration": 30,
+    "ipWhitelist": false,
+    "requireStrongPassword": true,
+    "passwordMinLength": 8
+  },
+  "notifications": {
+    "emailNotifications": true,
+    "depositConfirmation": true,
+    "withdrawalConfirmation": true,
+    "yieldNotification": true,
+    "marketingEmails": false,
+    "adminAlerts": true,
+    "lowBalanceAlert": 1000
+  },
+  "system": {
+    "databaseUrl": "postgresql://***@db.primebet.com:5432/primebet",
+    "redisUrl": "redis://***@redis.primebet.com:6379",
+    "apiRateLimit": 100,
+    "cacheEnabled": true,
+    "logLevel": "info",
+    "debugMode": false
+  }
+}
