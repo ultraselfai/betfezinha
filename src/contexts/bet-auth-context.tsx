@@ -226,12 +226,12 @@ export function BetAuthProvider({ children }: { children: React.ReactNode }) {
     
     // Verificar primeira visita - apenas para não autenticados
     if (status === "unauthenticated") {
-      const hasVisited = localStorage.getItem("primebet_visited");
+      const hasVisited = localStorage.getItem("fezinha_visited");
       if (!hasVisited) {
         // Delay mínimo para não bloquear render
         requestAnimationFrame(() => {
           setIsAuthModalOpen(true);
-          localStorage.setItem("primebet_visited", "true");
+          localStorage.setItem("fezinha_visited", "true");
         });
       }
     }

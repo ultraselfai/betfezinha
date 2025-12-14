@@ -1,5 +1,5 @@
 // ============================================
-// PrimeBet - Deposit Service
+// Fezinha do Dia - Deposit Service
 // ============================================
 
 import prisma from "@/lib/prisma";
@@ -205,7 +205,7 @@ function generateMockQRCode(amount: number): string {
 function generateMockPixCode(amount: number): string {
   // Em produção, seria o código PIX copia e cola
   const timestamp = Date.now();
-  return `00020126580014br.gov.bcb.pix0136${generateRandomKey()}5204000053039865802BR5910PrimeBet6008Brasilia62070503***6304${timestamp}`;
+  return `00020126580014br.gov.bcb.pix0136${generateRandomKey()}5204000053039865802BR5913FezinhaDoDia6008Brasilia62070503***6304${timestamp}`;
 }
 
 function generateRandomKey(): string {

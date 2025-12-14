@@ -24,7 +24,7 @@ const clientReadableCookies = [
 export async function POST() {
   const response = NextResponse.json({ success: true })
   const isProduction = process.env.NODE_ENV === "production"
-  const baseDomain = isProduction ? ".primebet.space" : undefined
+  const baseDomain = isProduction ? ".fezinhadodia.online" : undefined
 
   const expireDate = new Date(0)
 

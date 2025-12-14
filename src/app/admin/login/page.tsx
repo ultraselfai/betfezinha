@@ -82,7 +82,7 @@ export default function AdminLoginPage() {
         <div className="flex justify-center mb-8">
           <Image
             src="/logo-horizontal.png"
-            alt="PrimeBet"
+            alt="Fezinha do Dia"
             width={200}
             height={50}
             className="h-12 w-auto"
@@ -123,7 +123,7 @@ export default function AdminLoginPage() {
                       <FormControl>
                         <Input
                           type="email"
-                          placeholder="admin@primebet.com"
+                          placeholder="admin@fezinhadodia.online"
                           className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-500 focus:border-cyan-500 focus:ring-cyan-500"
                           disabled={isLoading}
                           {...field}
@@ -182,7 +182,7 @@ export default function AdminLoginPage() {
         </Card>
 
         <p className="text-center text-xs text-slate-600 mt-4">
-          © 2025 PrimeBet. Todos os direitos reservados.
+          © 2025 Fezinha do Dia. Todos os direitos reservados.
         </p>
       </div>
     </div>

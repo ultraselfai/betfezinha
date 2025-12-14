@@ -40,7 +40,7 @@ export function NavUser({
   const brandIconUrl =
     settings?.experience?.media?.favicon?.url ||
     settings?.experience?.media?.logo?.url
-  const brandName = settings?.experience?.identity?.siteName || "PrimeBet"
+  const brandName = settings?.experience?.identity?.siteName || "Fezinha do Dia"
 
   async function handleLogout() {
     await logoutAndRedirect("/admin/login")

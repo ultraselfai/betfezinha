@@ -7,8 +7,8 @@ import type { Role } from "@prisma/client";
 
 // Determinar se está em produção
 const isProduction = process.env.NODE_ENV === "production";
-// Domínio base para cookies (compartilhado entre primebet.space e console.primebet.space)
-const cookieDomain = isProduction ? ".primebet.space" : undefined;
+// Domínio base para cookies (compartilhado entre fezinhadodia.online e console.fezinhadodia.online)
+const cookieDomain = isProduction ? ".fezinhadodia.online" : undefined;
 
 declare module "next-auth" {
   interface User {

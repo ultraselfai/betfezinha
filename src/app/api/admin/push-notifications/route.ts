@@ -6,7 +6,7 @@ import webpush from "web-push";
 // Configurar VAPID keys (em produção, use variáveis de ambiente)
 if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
   webpush.setVapidDetails(
-    "mailto:admin@primebet.com",
+    "mailto:admin@fezinhadodia.online",
     process.env.VAPID_PUBLIC_KEY,
     process.env.VAPID_PRIVATE_KEY
   );

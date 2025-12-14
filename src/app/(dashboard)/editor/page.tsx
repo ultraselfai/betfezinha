@@ -494,7 +494,7 @@ function LivePreview({
   };
 
   // Detectar base URL da bet
-  // Em produção: console.primebet.space precisa apontar para primebet.space
+  // Em produção: console.fezinhadodia.online precisa apontar para fezinhadodia.online
   // Em desenvolvimento: usa a mesma origem (localhost:3000)
   const getBetBaseUrl = () => {
     if (typeof window === "undefined") return "";
@@ -1520,7 +1520,7 @@ export default function EditorPage() {
                               },
                             }))
                           }
-                          placeholder="PrimeBet"
+                          placeholder="Fezinha do Dia"
                         />
                       </div>
                       <div className="flex items-center gap-2">

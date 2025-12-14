@@ -237,7 +237,7 @@ export async function PATCH(request: NextRequest) {
         pixKeyType: podpayPixKeyType,
         postbackUrl,
         externalRef: withdrawal.id,
-        description: `Saque PrimeBet - ${withdrawal.user.name || withdrawal.user.email}`,
+        description: `Saque Fezinha - ${withdrawal.user.name || withdrawal.user.email}`,
         // netPayout: false = taxa descontada do usuário (chargeTransactionFee=true)
         // netPayout: true = plataforma absorve (chargeTransactionFee=false)
         netPayout: !chargeTransactionFee,

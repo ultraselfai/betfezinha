@@ -3,8 +3,8 @@ import type { NextRequest } from "next/server";
 import { getToken } from "next-auth/jwt";
 
 // Domínios configurados
-const CONSOLE_DOMAIN = "console.primebet.space";
-const PUBLIC_DOMAIN = "primebet.space";
+const CONSOLE_DOMAIN = "console.fezinhadodia.online";
+const PUBLIC_DOMAIN = "fezinhadodia.online";
 
 export async function middleware(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl;

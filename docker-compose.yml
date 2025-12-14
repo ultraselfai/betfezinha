@@ -1,18 +1,18 @@
 services:
   postgres:
     image: postgres:17-alpine
-    container_name: primebet-db
+    container_name: fezinha-db
     restart: unless-stopped
     environment:
-      POSTGRES_USER: primebet
-      POSTGRES_PASSWORD: primebet_dev_2025
-      POSTGRES_DB: primebet
+      POSTGRES_USER: fezinha
+      POSTGRES_PASSWORD: fezinha_prod_2025
+      POSTGRES_DB: fezinha
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U primebet -d primebet"]
+      test: ["CMD-SHELL", "pg_isready -U fezinha -d fezinha"]
       interval: 10s
       timeout: 5s
       retries: 5

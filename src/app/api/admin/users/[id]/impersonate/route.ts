@@ -46,7 +46,7 @@ export async function POST(request: NextRequest, { params }: RouteParams) {
     }
 
     // Gerar token de impersonação usando jose
-    const secret = new TextEncoder().encode(process.env.NEXTAUTH_SECRET || 'primebet-secret-key')
+    const secret = new TextEncoder().encode(process.env.NEXTAUTH_SECRET || 'fezinha-secret-key')
     
     const impersonationToken = await new SignJWT({
       userId: user.id,

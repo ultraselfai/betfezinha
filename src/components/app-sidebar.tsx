@@ -36,7 +36,7 @@ import {
 const data = {
   user: {
     name: "Admin",
-    email: "admin@primebet.com",
+    email: "admin@fezinhadodia.online",
     avatar: "",
   },
   navGroups: [
@@ -133,7 +133,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   
   // Usar favicon ou logo das configurações
   const sidebarIconUrl = settings?.experience?.media?.favicon?.url || settings?.experience?.media?.logo?.url;
-  const siteName = settings?.experience?.identity?.siteName || "PrimeBet";
+  const siteName = settings?.experience?.identity?.siteName || "Fezinha do Dia";
 
   return (
     <Sidebar {...props}>

@@ -66,7 +66,7 @@ export function BetHeader() {
         <Link href="/" className="flex items-center">
           <Image
             src={logoUrl || "/logo-horizontal.png"}
-            alt="PrimeBet"
+            alt="Fezinha do Dia"
             width={168}
             height={38}
             className="h-9 w-auto"

@@ -35,7 +35,7 @@ async function main() {
   console.log("🌱 Iniciando seed do banco de dados...\n");
 
   // Criar usuário admin padrão
-  const adminEmail = "admin@primebet.com";
+  const adminEmail = "admin@fezinhadodia.online";
   const adminPassword = "Admin@123";
 
   const existingAdmin = await prisma.user.findUnique({

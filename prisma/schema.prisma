@@ -1,6 +1,6 @@
 // ============================================
-// PrimeBet - Prisma Schema
-// Casa de Apostas + Fintech de Investimentos
+// Fezinha do Dia - Prisma Schema
+// Plataforma de Apostas Online
 // ============================================
 
 generator client {

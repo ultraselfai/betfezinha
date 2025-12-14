@@ -1,5 +1,5 @@
 // ============================================
-// PrimeBet - PodPay Gateway Service
+// Fezinha do Dia - PodPay Gateway Service
 // Integração com API do PodPay para PIX
 // ============================================
 

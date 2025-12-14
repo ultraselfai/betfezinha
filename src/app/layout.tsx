@@ -13,8 +13,8 @@ import { loadPublicSettings } from "@/lib/settings/load-public-settings";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "PrimeBet - Casa de Apostas & Investimentos",
-  description: "Plataforma híbrida de apostas e investimentos com rendimentos automáticos",
+  title: "Fezinha do Dia - Sua Sorte Todo Dia",
+  description: "A melhor plataforma de apostas do Brasil. Faça sua fezinha e ganhe todo dia!",
 };
 
 export default async function RootLayout({

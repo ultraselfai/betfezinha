@@ -56,7 +56,7 @@ import { logoutAndRedirect } from "@/utils/logout-client";
 const initialSettings = {
   // Geral
   general: {
-    siteName: "PrimeBet",
+    siteName: "Fezinha do Dia",
     timezone: "America/Sao_Paulo",
     currency: "BRL",
     language: "pt-BR",

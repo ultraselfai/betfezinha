@@ -1,4 +1,4 @@
-# PrimeBet
+# Fezinha do Dia
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js_15-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -7,16 +7,16 @@
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)](https://www.prisma.io/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-Plataforma completa de apostas online com sistema de investimentos integrado. Combina um **lobby de jogos mobile-first** para jogadores e um **painel administrativo** robusto para gestão da operação.
+Plataforma completa de apostas online. Combina um **lobby de jogos mobile-first** para jogadores e um **painel administrativo** robusto para gestão da operação.
 
 ---
 
 ## 🎯 Visão Geral
 
-O PrimeBet é uma solução fintech que une entretenimento e investimentos:
+Fezinha do Dia é uma plataforma de entretenimento online:
 
 - **🎰 Lobby de Apostas** — Interface mobile-first com catálogo de jogos de diversos provedores
-- **💰 Sistema de Carteiras Duplas** — Cada depósito é creditado tanto na carteira de jogos quanto na carteira de investimentos
+- **💰 Carteira Digital** — Depósitos e saques via PIX
 - **📊 Painel Administrativo** — Gestão completa de usuários, finanças, jogos e configurações
 - **🎨 Editor Visual** — Personalize cores, logos, banners e identidade visual sem código
 - **🔐 KYC Integrado** — Sistema de verificação de identidade com aprovação administrativa
@@ -29,7 +29,6 @@ O PrimeBet é uma solução fintech que une entretenimento e investimentos:
 
 - **Lobby de Jogos** — Navegação por categorias (Slots, Crash, Ao Vivo, etc.)
 - **Carteira Game** — Saldo para apostas com depósito via PIX
-- **Carteira Invest** — Rendimentos mensais sobre o capital depositado
 - **Perfil Completo** — Dados pessoais, histórico de apostas, verificação KYC
 - **Notificações Push** — Alertas de promoções e atualizações
 
@@ -47,7 +46,7 @@ O PrimeBet é uma solução fintech que une entretenimento e investimentos:
 ## 🏗️ Arquitetura
 
 ```
-📁 primebet/
+📁 fezinha-do-dia/
 ├── 📁 prisma/                    # Schema e migrações do banco
 │   ├── schema.prisma             # Modelos: User, Wallet, Game, Transaction...
 │   └── seed.ts                   # Seed de dados iniciais

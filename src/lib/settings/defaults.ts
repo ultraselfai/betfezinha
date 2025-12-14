@@ -1,15 +1,15 @@
 export const defaultExperience = {
   identity: {
-    siteName: "PrimeBet",
-    tagline: "Aposte e Invista",
-    footerText: "© 2024 PrimeBet. Todos os direitos reservados.",
-    footerDescription: "O grupo PRIMEBET é uma das mais renomadas empresas internacionais de operação de iGaming, oferecendo os principais jogos slots e uma modalidade exclusiva onde VOCÊ nunca perde e ao invés disso transforma seus depósitos em retorno financeiro. Estamos autorizados e regulamentados pelo governo de Curaçao, operando com a licença número Antillephone emitida para a 8048/JAZ. Passamos por todas as verificações.",
-    supportEmail: "suporte@primebet.com",
+    siteName: "Fezinha do Dia",
+    tagline: "Sua Sorte Todo Dia",
+    footerText: "© 2025 Fezinha do Dia. Todos os direitos reservados.",
+    footerDescription: "Fezinha do Dia é uma plataforma de entretenimento online, oferecendo os melhores jogos de slots, crash e cassino ao vivo. Jogue com responsabilidade e divirta-se!",
+    supportEmail: "suporte@fezinhadodia.online",
     whatsapp: "5511999999999",
     telegramButtonLink: "", // @deprecated
     socialLinks: {
-      instagram: "https://instagram.com/primebet",
-      telegram: "https://t.me/primebet",
+      instagram: "https://instagram.com/fezinhadodia",
+      telegram: "https://t.me/fezinhadodia",
       youtube: "",
     },
     helpCenter: {
@@ -17,7 +17,7 @@ export const defaultExperience = {
       whatsappImageUrl: "",
       telegramLink: "",
       telegramImageUrl: "",
-      emailSupport: "suporte@primebet.com",
+      emailSupport: "suporte@fezinhadodia.online",
     },
     floatingButtons: {
       telegram: {
@@ -33,9 +33,9 @@ export const defaultExperience = {
     },
   },
   seo: {
-    title: "PrimeBet - Apostas e Investimentos",
-    description: "A melhor plataforma de apostas e investimentos do Brasil",
-    keywords: "apostas, investimentos, jogos, cassino, slots",
+    title: "Fezinha do Dia - Sua Sorte Todo Dia",
+    description: "A melhor plataforma de apostas do Brasil. Slots, Crash, Cassino ao Vivo e muito mais!",
+    keywords: "apostas, jogos, cassino, slots, crash, fezinha",
   },
   theme: {
     primaryColor: "#00faff",
@@ -52,7 +52,7 @@ export const defaultExperience = {
   media: {
     logo: {
       url: "/logo-horizontal.png",
-      alt: "Logotipo PrimeBet",
+      alt: "Logotipo Fezinha do Dia",
     },
     favicon: {
       url: "/favicon.ico",
@@ -132,7 +132,7 @@ export const defaultExperience = {
 
 export const defaultSettings = {
   general: {
-    siteName: "PrimeBet",
+    siteName: "Fezinha do Dia",
     timezone: "America/Sao_Paulo",
     currency: "BRL",
     language: "pt-BR",

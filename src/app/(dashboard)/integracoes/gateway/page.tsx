@@ -78,7 +78,7 @@ export default function GatewayConfigPage() {
 
   // Webhook URLs - Sempre usar URL de produção para cadastrar no PodPay
   // O admin deve copiar estas URLs e cadastrar no painel do PodPay
-  const PRODUCTION_URL = "https://primebet.space";
+  const PRODUCTION_URL = "https://fezinhadodia.online";
   const webhookTransactionUrl = `${PRODUCTION_URL}/api/webhooks/podpay/transaction`;
   const webhookTransferUrl = `${PRODUCTION_URL}/api/webhooks/podpay/transfer`;
 
